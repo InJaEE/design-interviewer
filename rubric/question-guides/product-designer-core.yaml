@@ -1,0 +1,111 @@
+id: product-designer-core
+display_name: 프로덕트 디자이너 핵심 질문 가이드
+usage:
+  purpose: 대표 질문을 통해 중요한 판단 근거를 수집한다
+  not_a_required_sequence: true
+  exact_wording_is_not_scored: true
+  coaching_examples_are_not_hiring_evidence: true
+
+questions:
+  - id: ai-role-evolution
+    question: AI가 계속 발전한다면 앞으로 프로덕트 디자이너의 역할은 어떻게 변화할 것 같나요?
+    purpose: 변화하는 환경에서 업무를 재정의하고 학습하는 태도와 판단력을 살펴본다
+    question_type: hypothetical
+    target_competencies:
+      - product_thinking
+      - decision_making
+      - outcomes_learning
+    requires_behavioral_follow_up: true
+    strong_signals:
+      - AI가 대신하기 쉬운 업무와 사람이 더 잘해야 할 업무를 구체적으로 구분한다
+      - AI를 실제 디자인 업무에서 사용하고 결과를 검토하거나 수정한 경험이 있다
+      - 속도뿐 아니라 품질, 윤리, 맥락과 검증의 한계를 인식한다
+      - 자신의 전문성과 역할을 어떻게 확장할지 구체적으로 설명한다
+      - 새로운 도구를 실험하고 학습한 행동 근거가 있다
+    weak_signals:
+      - AI를 활용하겠다는 선언만 있고 구체적인 경험이나 계획이 없다
+      - AI를 무조건적인 대체 수단 또는 만능 도구로 본다
+      - 현재 직무를 계속하고 싶다는 의지만 말하고 환경 변화와 연결하지 않는다
+      - 기술 전망을 말하지만 자신의 역할과 판단 변화가 없다
+    follow_ups:
+      - 최근 디자인 업무에서 AI를 직접 사용한 사례가 있나요?
+      - AI가 만든 결과를 그대로 사용하지 않고 수정한 부분은 무엇인가요?
+      - AI에게 맡기면 위험하다고 판단한 디자인 업무는 무엇인가요?
+      - AI로 절약한 시간을 어떤 업무에 다시 투자하겠습니까?
+    evaluation_cautions:
+      - 미래 의견만으로 역량 점수를 확정하지 않는다
+      - 특정 AI 도구의 사용 여부나 유행어를 점수화하지 않는다
+      - 행동 경험을 확인하는 후속 질문과 함께 판단한다
+      - 실제 AI 활용 경험이 나오면 ../evidence-guides/ai-assisted-work.yaml의 범위, 대안, 검증과 책임을 확인한다
+
+  - id: collaboration-conflict
+    question: 협업 과정에서 의견 충돌이 있을 때 어떻게 해결했나요?
+    purpose: 서로 다른 목표와 제약을 이해하고 공동의 판단 기준으로 결론을 만드는 능력을 살펴본다
+    question_type: behavioral
+    target_competencies:
+      - collaboration
+      - decision_making
+      - product_thinking
+    strong_signals:
+      - 실제 충돌 상황과 참여자의 입장 및 제약이 구체적이다
+      - 상대 의견에서 타당한 부분과 자신의 의견의 한계를 함께 설명한다
+      - 사용자 가치, 사업 목표와 기술 비용 등 합의 가능한 판단 기준을 만든다
+      - 설득뿐 아니라 조정, 실험, 단계적 결정 등 적절한 해결 방식을 선택한다
+      - 결정 이후 결과와 관계 또는 일하는 방식의 변화를 돌아본다
+    weak_signals:
+      - 자신이 상대를 설득하거나 이겼다는 내용만 있다
+      - 상대 직군을 비합리적인 방해자로 묘사한다
+      - 소통했다거나 사용자 중심으로 결정했다는 일반적인 표현으로 끝난다
+      - 결론을 내린 판단 기준과 결과가 없다
+      - 팀의 결정에서 자신이 한 행동이 구분되지 않는다
+    follow_ups:
+      - 서로 충돌했던 목표는 각각 무엇이었나요?
+      - 상대방의 의견 중 타당했던 부분은 무엇이었나요?
+      - 최종 결정을 내릴 때 합의한 기준은 무엇이었나요?
+      - 본인의 최초 의견에서 바뀐 부분이 있었나요?
+      - 결과적으로 그 결정이 적절했는지 어떻게 확인했나요?
+    evaluation_cautions:
+      - 강하게 설득했다는 사실 자체를 감점하지 않는다
+      - 사용자 중심이라는 표현 자체를 긍정적인 판단 근거로 사용하지 않는다
+      - 상황에 적합한 판단 기준, 행동과 결과를 확인한다
+
+  - id: problem-solving-reasoning
+    question: 이 문제를 푸는 과정에서 어떤 고민을 했나요?
+    purpose: 초기 생각이 근거와 검증을 거쳐 어떻게 구체적인 디자인 판단으로 바뀌었는지 살펴본다
+    question_type: behavioral
+    target_competencies:
+      - problem_framing
+      - user_understanding
+      - decision_making
+      - outcomes_learning
+    reasoning_trace:
+      - 초기 문제 인식
+      - 가설
+      - 확인 방법
+      - 새롭게 발견한 내용
+      - 판단 변화
+      - 실행한 변경
+      - 결과
+      - 학습
+    strong_signals:
+      - 처음 생각과 실제 발견의 차이가 구체적이다
+      - 무엇을 근거로 판단을 바꿨는지 설명한다
+      - 검토한 대안, 선택 이유와 포기한 가치를 설명한다
+      - 팀의 활동과 본인이 내린 판단을 구분한다
+      - 결과가 예상과 달랐던 경우에도 한계와 학습을 설명한다
+    weak_signals:
+      - 리서치나 사용자 중심 같은 방법 이름만 나열한다
+      - 문제, 가설, 행동과 결과가 서로 연결되지 않는다
+      - 팀의 프로젝트와 본인의 판단이 구분되지 않는다
+      - 처음부터 정답을 알고 있었던 것처럼 설명한다
+      - 어떤 프로젝트에도 적용할 수 있는 추상적인 문장만 사용한다
+    follow_ups:
+      - 처음에는 왜 그것이 문제라고 생각했나요?
+      - 생각을 바꾸게 만든 가장 중요한 정보는 무엇이었나요?
+      - 확인한 내용 중 채택하지 않은 것도 있었나요?
+      - 어떤 대안을 비교했고 무엇을 포기했나요?
+      - 결과가 기대와 달랐다면 무엇을 다시 확인했을까요?
+    evaluation_cautions:
+      - 조사 인원수나 정량 지표의 존재 자체를 품질로 평가하지 않는다
+      - 성공한 결과만 강한 판단 근거로 보지 않는다
+      - 문제에서 학습까지 이어지는 사고의 추적 가능성을 본다
