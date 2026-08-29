@@ -1,0 +1,36 @@
+version: 1
+required:
+  - id
+  - display_name
+  - mode_support
+  - communication
+  - questioning
+  - focus
+  - invariants
+fields:
+  id: string
+  display_name: string
+  description: string
+  mode_support:
+    allowed: [evaluation, coaching]
+  communication:
+    tone: [warm, neutral, formal]
+    directness: [low, medium, high]
+    response_length: [short, medium]
+  questioning:
+    depth: [low, medium, high]
+    pace: [deliberate, balanced, broad]
+    challenge_level: [low, medium, high]
+    follow_up_intensity: [low, medium, high]
+    ambiguity_tolerance: [low, medium, high]
+    max_questions_at_once:
+      const: 1
+  focus:
+    additional_properties: low | medium | high
+  invariants:
+    required:
+      - fixed_rubric
+      - no_protected_attributes
+      - evidence_required
+      - one_question_at_a_time
+
