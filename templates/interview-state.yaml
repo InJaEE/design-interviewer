@@ -1,0 +1,21 @@
+id: interview-id
+candidate_id: candidate-id
+kind: interview
+status: active
+version: 1
+created_at: null
+updated_at: null
+source_ids: []
+supersedes: null
+mode: evaluation
+type: project
+style_id: balanced-practitioner
+style_snapshot: {}
+target_competencies: []
+started_at: null
+last_completed_turn: 0
+next_question_intent: null
+unresolved_branches: []
+collected_claim_ids: []
+collected_evidence_ids: []
+

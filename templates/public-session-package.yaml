@@ -1,0 +1,16 @@
+package_version: 1
+interview_id: one-time-interview-id
+mode: evaluation
+type: project
+purpose: null
+expected_minutes: 30
+candidate_instructions: null
+public_project_context: null
+interviewer:
+  display_name: 균형 있게 살펴보는 면접관
+  communication: {}
+target_competencies: []
+state:
+  status: ready
+  last_completed_turn: 0
+  next_question_intent: null

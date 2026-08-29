@@ -1,0 +1,9 @@
+# Local interview state and candidate data
+#
+# This directory contains resumable session checkpoints, transcripts,
+# uploaded candidate materials, extracted evidence, and private assessments.
+# It must never be committed.
+.interview-data/
+
+# macOS metadata
+.DS_Store
